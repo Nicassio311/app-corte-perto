@@ -119,10 +119,11 @@ export default function Home() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <div className="relative">
-                <Scissors className="w-8 h-8 text-yellow-500" />
-                <MapPin className="w-4 h-4 text-yellow-500 absolute -bottom-1 -right-1" />
-              </div>
+              <img 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/1c1c3ffc-c2bd-48a5-a402-ead1109fb541.jpg" 
+                alt="Corte Perto Logo" 
+                className="h-12 w-auto object-contain"
+              />
               <div>
                 <h1 className="text-2xl font-bold text-white">Corte Perto</h1>
                 <p className="text-xs text-gray-400">Seu corte. Sua distância. Seu tempo.</p>
